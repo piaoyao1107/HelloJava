@@ -30,4 +30,11 @@ public class UserController {
     public void delete(@PathVariable Integer id){
         this.userService.deleteUser(id);
     }
+
+
+    @RequestMapping("/haha")
+    public String hello(){
+        return "haha BingLi";
+    }
+
 }

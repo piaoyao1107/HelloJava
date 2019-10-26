@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>用户信息</title>
+    <!--
     <link rel="stylesheet" type="text/css" href="ui/themes/default/easyui.css">
     <link rel="stylesheet" type="text/css" href="ui/itemes/icon.css">
-    <script type="text/javascript" src="ui/jquery.min.js"></script>
+    <script type="text/javascript" src="/Users/apple/Downloads/jquery-3.3.1/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="ui/jquery.easyui.min.js"></script>
-    <script type="text/javascript" src="ui/locate/eastui-lang-zh_CN.js"></script>
+    <script type="text/javascript" src="ui/locate/easyui-lang-zh_CN.js"></script>
+    -->
+<!--    <script type="text/javascript" src="/Users/apple/Downloads/jquery-3.3.1/jquery-3.3.1.js"></script>-->
+<!--    <script type="text/javascript" src="/Users/apple/Downloads/jquery-3.3.1/jquery-3.3.1.min.js"></script>-->
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
     <script type="text/javascript">
         $(function(){
             $('#grid').datagrid({
@@ -17,7 +22,7 @@
                     {field:'id',title:'编号',wiidth:50},
                     {field:'username',title:'姓名',wiidth:200},
                     {field:'address',title:'地址',wiidth:200},
-                    {field:'del',title:'删除',wiidth:100},
+                    {field:'del',title:'删除',wiidth:100}
                 ]]
             });
         });
